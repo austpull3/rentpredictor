@@ -8,7 +8,7 @@ import numpy as np
 
 from sklearn.linear_model import LinearRegression
 
-if chck:
+if st.checkbox("select":
     primarycl = st.get_option("theme.primaryColor"
 else:
     primarycl = "#f58517
