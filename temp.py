@@ -6,8 +6,6 @@ import time
 
 import numpy as np
 
-pip install scikit-learn
-
 from sklearn.linear_model import LinearRegression
 
 
