@@ -21,7 +21,10 @@ if st.checkbox("Show number of rows and columns"):
 st.dataframe(df.head())
 
 if st.checkbox('checkbox'):
-    st.image("mike.png") 
+    st.image("mike.png")
+
+if st.checkbox('checkbox'):
+    st.image("/Images/julio.png") 
 
 df = df[df['total_pitches'] > 10]
 df = df.dropna()
