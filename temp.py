@@ -11,7 +11,7 @@ st.button('Streamlit Button', help = "Click me!")
 
 st.title("Predict MLB Batting Average!⚾️")
 
-df = 'savant_data (16).csv')
+df = 'savant_data (16).csv'
 
 df = df[df['total_pitches'] > 10]
 df = df.dropna()
