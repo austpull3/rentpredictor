@@ -19,9 +19,3 @@ df = pd.read_csv('savant_data (16).csv')
 
 df = df[df['total_pitches'] > 10]
 df = df.dropna()
-
-
-if st.button('Predict Batting Average'):
-    price = predict(hitter, hits, total_pitches)
-    st.write(f"Predicted Batting Average for Bryce Harper against {hitter}")
-    st.success( price)
