@@ -60,18 +60,8 @@ pickled_model = pickle.load(open('model.pkl', 'rb'))
 pickled_model.predict(x)
 
 def predict(playerid, hits, total_pitches):
-    #Predicting the price of the carat
-    #if playerid == 593423:
-        #"Mike Trout"
-    #if hits == 3:
-        #hits == 3
-        
-    #if total_pitches == 17:
-       # total_pitches == 17
     prediction = model.predict(pd.DataFrame([[playerid, hits, total_pitches]], columns = ['playerid', 'hits', 'total_pitches']))
     return prediction
-
-col, col2, col3 = st.columns(3)
 
 st.header('Enter the characteristics: ')
 
@@ -80,17 +70,6 @@ hitter = st.selectbox(
     'Select a pitcher: ', ['593423', '541640'])
 if hitter == '593423':
     st.write(f"You selected Frankie Montas")
-    with col:
-        st.header("Frankie Montas")
-        st.image(image3)
-    with col2:
-        st.header(" ")
-        st.write(" ")
-        st.image(image5)
-    with col3:
-        st.header("Bryce Harper")
-        st.image(image4)
-
 elif hitter == '541640':
     st.write(f"You selected Erasmo Ramierz")
     
