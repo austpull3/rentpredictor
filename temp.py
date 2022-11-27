@@ -44,6 +44,7 @@ new_output = model.predict(new_input)
 print(new_input, new_output) 
 
 st.write(new_input)
+st.write(new_output)
 
 if st.checkbox("Show number of rows and columns"):
         st.write(f'Rows: {df.shape[0]}')
