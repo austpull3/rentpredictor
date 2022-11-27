@@ -10,7 +10,7 @@ st.title("Predict MLB Batting Average!⚾️")
 
 
 from PIL import Image 
-image = Image.open('/Users/austinpullar/Desktop/mike.png')
+#image = Image.open('/Users/austinpullar/Desktop/mike.png')
 image2 = Image.open('/Users/austinpullar/Desktop/julio.png')
 image3 = Image.open('/Users/austinpullar/Desktop/Frankie.png')
 image4 = Image.open('/Users/austinpullar/Desktop/Bryce.png')
