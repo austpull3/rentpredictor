@@ -9,7 +9,7 @@ import numpy as np
 from sklearn.linear_model import LinearRegression
 
 if st.checkbox("select"):
-    primaryColor = theme.primaryColor
+    theme.primaryColor
 
 st.title("Predict MLB Batting Average!⚾️")
 
