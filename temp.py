@@ -6,15 +6,18 @@ import time
 
 import numpy as np
 
+conn = sqlite3.connect('rentpredictor/temp.py')
+
+
 st.title("Predict MLB Batting Average!⚾️")
 
 
 from PIL import Image 
-image = Image.open('mike.png')
-image2 = Image.open('/Users/austinpullar/Desktop/julio.png')
-image3 = Image.open('/Users/austinpullar/Desktop/Frankie.png')
-image4 = Image.open('/Users/austinpullar/Desktop/Bryce.png')
-image5 = Image.open('/Users/austinpullar/Desktop/vs.jpeg')
+image = Image.open('rentpredictor/mike.png')
+#image2 = Image.open('/Users/austinpullar/Desktop/julio.png')
+#image3 = Image.open('/Users/austinpullar/Desktop/Frankie.png')
+#image4 = Image.open('/Users/austinpullar/Desktop/Bryce.png')
+#image5 = Image.open('/Users/austinpullar/Desktop/vs.jpeg')
 
     
 
