@@ -13,6 +13,8 @@ st.title("Predict MLB Batting Average!⚾️")
 
 df = 'savant_data (16).csv'
 
+st.write(df)
+
 if st.checkbox('checkbox'):
     st.image("mike.png")
 
