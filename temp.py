@@ -1,5 +1,8 @@
 import streamlit as st
 
+if chck:
+    primarycl = st.get_option("theme.primaryColor"
+
 import pandas as pd
 
 import time 
