@@ -41,7 +41,7 @@ for i in range(10):
     print(x[i], y_pred[i])
     
 # define input
-new_input = [[593423, 3 ,7]]
+new_input = [[593423, 3 ,40]]
 # get prediction for new input
 new_output = model.predict(new_input)
 # summarize input and output
