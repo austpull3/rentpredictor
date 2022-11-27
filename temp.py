@@ -25,7 +25,7 @@ if mike:
     st.image("mike.png")
 
 if st.checkbox('checkbox'):
-    st.image("rentpredictor/Images/julio.png") 
+    st.image("julio.png") 
 
 df = df[df['total_pitches'] > 10]
 df = df.dropna()
