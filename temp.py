@@ -25,3 +25,5 @@ df = df.dropna()
 if st.checkbox("Show number of rows and columns"):
         st.write(f'Rows: {df.shape[0]}')
         st.write(f'Columns: {df.shape[1]}')
+
+        
