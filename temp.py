@@ -19,3 +19,5 @@ df = pd.read_csv('savant_data (16).csv')
 
 df = df[df['total_pitches'] > 10]
 df = df.dropna()
+
+df.head()
