@@ -1,8 +1,5 @@
 import streamlit as st
 
-if chck:
-    primarycl = st.get_option("theme.primaryColor"
-
 import pandas as pd
 
 import time 
@@ -10,6 +7,11 @@ import time
 import numpy as np
 
 from sklearn.linear_model import LinearRegression
+
+if chck:
+    primarycl = st.get_option("theme.primaryColor"
+else:
+    primarycl = "#f58517
 
 
 st.title("Predict MLB Batting Average!⚾️")
