@@ -15,7 +15,7 @@ if st.checkbox('checkbox'):
 
             
 import pandas as pd 
-df = pd.read_csv('/Users/austinpullar/Downloads/savant_data (16).csv')
+df = pd.read_csv('savant_data (16).csv')
 
 df = df[df['total_pitches'] > 10]
 df = df.dropna()
