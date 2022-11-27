@@ -6,7 +6,7 @@ import time
 
 import numpy as np
 
-conn = sqlite3.connect('rentpredictor')
+#conn = sqlite3.connect('rentpredictor')
 
 
 st.title("Predict MLB Batting Average!⚾️")
