@@ -23,4 +23,27 @@ st.dataframe(df.head())
 if st.checkbox('checkbox'):
     st.image("mike.png") 
 
+df = df[df['total_pitches'] > 10]
+df = df.dropna()
+
+import numpy as np
+from sklearn.linear_model import LinearRegression
+
+x = df[['player_id','hits', 'total_pitches']]
+y = df['ba']
+x = x.to_numpy()
+y = y.to_numpy()
+
+model = LinearRegression()
+model.fit(x, y)
+y_pred = model.predict(x)
+for i in range(10):
+    print(x[i], y_pred[i])
+    
+# define input
+new_input = [[593423, 3 ,17]]
+# get prediction for new input
+new_output = model.predict(new_input)
+# summarize input and output
+print(new_input, new_output) 
 
