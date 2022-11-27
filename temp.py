@@ -6,6 +6,18 @@ import time
 
 import numpy as np
 
+Click on the images below to view this app with different themes. 
+"""
+
+""
+
+THEMES = [
+    "light",
+    "dark",
+    "green",
+    "blue",
+]
+
 from sklearn.linear_model import LinearRegression
 
 if st.checkbox("select"):
