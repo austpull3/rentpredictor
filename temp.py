@@ -24,9 +24,6 @@ mike = st.checkbox('Select Mike Trout')
 if mike:
     st.image("mike.png")
 
-if st.checkbox('checkbox'):
-    st.image("/Images/julio.png") 
-
 df = df[df['total_pitches'] > 10]
 df = df.dropna()
 
