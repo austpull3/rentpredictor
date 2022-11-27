@@ -6,23 +6,10 @@ import time
 
 import numpy as np
 
-st.write("Click on the images below to view this app with different themes.")
-"""
-
-""
-
-THEMES = [
-    "light",
-    "dark",
-    "green",
-    "blue",
-]
-
 from sklearn.linear_model import LinearRegression
 
 if st.checkbox("select"):
-    primarycl = st.get_option("theme.primaryColor")
-
+    primaryColor = st.get_option("theme.primaryColor")
 
 st.title("Predict MLB Batting Average!⚾️")
 
