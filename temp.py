@@ -18,6 +18,6 @@ if st.checkbox("Show number of rows and columns"):
   st.write(f'Columns: {df.shape[1]}')
 
 if st.checkbox('checkbox'):
-    st.image("mike.png")
+    st.image("mike.png") 
 
 
