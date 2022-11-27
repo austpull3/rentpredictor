@@ -20,4 +20,6 @@ df = pd.read_csv('savant_data (16).csv')
 df = df[df['total_pitches'] > 10]
 df = df.dropna()
 
-df.head()
+if st.checkbox("Show number of rows and columns"):
+        st.write(f'Rows: {df.shape[0]}')
+        st.write(f'Columns: {df.shape[1]}')
