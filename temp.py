@@ -6,7 +6,7 @@ import time
 
 import numpy as np
 
-Click on the images below to view this app with different themes. 
+st.write("Click on the images below to view this app with different themes.")
 """
 
 ""
