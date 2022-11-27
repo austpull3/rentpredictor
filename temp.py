@@ -47,3 +47,4 @@ new_output = model.predict(new_input)
 # summarize input and output
 print(new_input, new_output) 
 
+st.write('new_output')
