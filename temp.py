@@ -59,3 +59,16 @@ pickled_model = pickle.load(open('model.pkl', 'rb'))
 
 
 pickled_model.predict(x)
+
+def predict(playerid, hits, total_pitches):
+    #Predicting the price of the carat
+    #if playerid == 593423:
+        #"Mike Trout"
+    #if hits == 3:
+        #hits == 3
+        
+    #if total_pitches == 17:
+       # total_pitches == 17
+    prediction = model.predict(pd.DataFrame([[playerid, hits, total_pitches]], columns = ['playerid', 'hits', 'total_pitches']))
+    return prediction
+
