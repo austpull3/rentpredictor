@@ -6,6 +6,8 @@ import time
 
 import numpy as np
 
+st.button('Streamlit Button', help = "Click me!")
+
 from sklearn.linear_model import LinearRegression
 
 if st.checkbox("select"):
