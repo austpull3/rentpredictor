@@ -6,6 +6,8 @@ import time
 
 import numpy as np
 
+from sklearn.linear_model import LinearRegression
+
 
 
 st.title("Predict MLB Batting Average!⚾️")
