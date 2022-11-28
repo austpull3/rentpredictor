@@ -90,4 +90,4 @@ if st.button('Predict Batting Average'):
     price = predict(hitter, hits, total_pitches)
     st.write(f"Predicted Batting Average for Bryce Harper against {hitter}")
     st.success( price)
-
+ 
